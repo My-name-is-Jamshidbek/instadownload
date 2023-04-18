@@ -6,7 +6,6 @@ It echoes any incoming text messages.
 import logging
 import os
 import time
-from ctypes import Union
 from random import randint
 from pytube import YouTube
 import youtube_dl
@@ -164,6 +163,8 @@ async def main(message: types.Message):
             print(e)
         finally:
             os.remove(f"videos/like/{message.chat.id}/1.mp4")
+    elif "tiktok" in message.text:
+        pass
 
 
 @dp.callback_query_handler(text_contains='downloadvideo_')

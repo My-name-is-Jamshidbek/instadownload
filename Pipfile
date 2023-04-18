@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 instaloader = "*"
 youtube-dl = "*"
+tiktokapipy = "*"
+pytest-asyncio = "*"
 
 [dev-packages]
 
