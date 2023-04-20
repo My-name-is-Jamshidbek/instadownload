@@ -38,7 +38,7 @@ downloads = {}
 
 la = instaloader.Instaloader()
 
-API_TOKEN = '5161117755:AAHVm0jShFoCKKPnlIVUa3BOdnpHPO570-M'
+API_TOKEN = '5346182572:AAHc-WGROVX-bzCkF9b2Qw8v9BgABcUVMxE'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
